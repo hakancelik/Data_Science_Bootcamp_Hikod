@@ -1,4 +1,4 @@
-# Data_Science_Bootcamp_Miuul
+# Data_Science_Bootcamp_Hikod
 # BG-NBD ve Gamma-Gamma ile CLTV Prediction
 
 1. Verinin Hazırlanması (Data Preperation) & Veri Analizi (Data Analysis) ve Veri Görselleştirmesi (Data Visualization)
