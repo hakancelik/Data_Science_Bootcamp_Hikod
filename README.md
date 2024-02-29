@@ -1,24 +1,17 @@
-# Data_Science_Bootcamp_Hikod
-# BG-NBD ve Gamma-Gamma ile CLTV Prediction
+# CLTV prediction using BG-NBD and Gamma-Gamma models
+    Data preparation, analysis, and visualization.
+  segmentation_and_marketing_strategy:
+  An e-commerce company wants to segment its customers and determine marketing strategies based on these segments.
 
-1. Verinin Hazırlanması (Data Preperation) & Veri Analizi (Data Analysis) ve Veri Görselleştirmesi (Data Visualization)
+dataset_story:
+  The dataset named Online Retail II contains the sales of an online retail store based in the UK between 01/12/2009 and 09/12/2011.
 
-2. Bir e-ticaret şirketi müşterilerini segmentlere ayırıp bu segmentlere göre pazarlama stratejileri belirlemek istiyor.
-
-Veri Seti Hikayesi
-
-https://archive.ics.uci.edu/ml/datasets/Online+Retail+II
-
-Online Retail II isimli veri seti İngiltere merkezli online bir satış mağazasının
-01/12/2009 - 09/12/2011 tarihleri arasındaki satışlarını içeriyor.
-
-Değişkenler
-
-InvoiceNo: Fatura numarası. Her işleme yani faturaya ait eşsiz numara. C ile başlıyorsa iptal edilen işlem.
-StockCode: Ürün kodu. Her bir ürün için eşsiz numara.
-Description: Ürün ismi
-Quantity: Ürün adedi. Faturalardaki ürünlerden kaçar tane satıldığını ifade etmektedir.
-InvoiceDate: Fatura tarihi ve zamanı.
-UnitPrice: Ürün fiyatı (Sterlin cinsinden)
-CustomerID: Eşsiz müşteri numarası
-Country: Ülke ismi. Müşterinin yaşadığı ülke.
+variables:
+  InvoiceNo: Invoice number. A unique number for each transaction, starting with C if it's a canceled transaction.
+  StockCode: Product code. A unique number for each product.
+  Description: Product name.
+  Quantity: Quantity of the product. Indicates how many of the products on the invoices were sold.
+  InvoiceDate: Invoice date and time.
+  UnitPrice: Product price (in pounds).
+  CustomerID: Unique customer number.
+  Country: Country name. The country where the customer resides.
